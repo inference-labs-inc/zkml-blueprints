@@ -1,6 +1,9 @@
 # zkml-blueprints
 
-> 🧠 Explore zkML‑blueprints—a growing collection of custom circuit designs with every constraint proven and every idea explained. Built for clarity, rigor, and community collaboration—the reference we all wish we’d had!
+> A growing collection of custom circuit designs—with every constraint proven and every idea explained.  
+> Built for clarity, rigor, and community collaboration—the reference we all wish we’d had!
+
+---
 
 **zkml-blueprints** is a collection of mathematical formulations and circuit designs supporting zero-knowledge (ZK) proofs for machine learning (ML) applications, focusing on efficiently implementing provable computations in ZK circuits. This repository provides formal descriptions, constraints, and structured blueprints for designing circuits that preserve privacy while ensuring verifiable correctness.
 
