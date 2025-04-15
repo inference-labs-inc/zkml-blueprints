@@ -2,7 +2,7 @@
 
 This directory covers matrix multiplication circuits:
 
-- [`matrix_multiplication.pdf`](./matrix_addition_hadamard_product_matrix_multiplication.pdf) – Matrix addition, Hadamard product, generalized matrix multiplication
+- [`matrix_addition_hadamard_product_matrix_multiplication.pdf`](./matrix_addition_hadamard_product_matrix_multiplication.pdf) – Matrix addition, Hadamard product, generalized matrix multiplication
 - [`quantized_matrix_multiplication_v1.pdf`](./quantized_matrix_multiplication.pdf) – Quantized version with scaling and ReLU-compatible range checks
 
 ## 🔗 Related

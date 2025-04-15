@@ -7,6 +7,9 @@
 
 **zkml-blueprints** is a collection of mathematical formulations and circuit designs supporting zero-knowledge (ZK) proofs for machine learning (ML) applications, focusing on efficiently implementing provable computations in ZK circuits. This repository provides formal descriptions, constraints, and structured blueprints for designing circuits that preserve privacy while ensuring verifiable correctness.
 
+If you're new here, a good starting point is the [matrix addition, Hadamard product, and matrix multiplication blueprint](./matmul/matrix_addition_hadamard_product_matrix_multiplication.pdf).  
+It introduces the core ideas and verification paradigm used throughout the project, grounded in addition and multiplication over finite fields, before moving on to more technical constructions.
+
 ## Features
 - 📖 **Mathematical Formulations** – Rigorous explanations of key principles underlying ZK circuit design.
 - 🛠 **Circuit Constraints** – Well-documented approaches to encoding computations in finite fields.
@@ -26,7 +29,7 @@ Each subdirectory focuses on a specific class of operations:
 | Directory        | Contents                                                                 |
 |------------------|--------------------------------------------------------------------------|
 | [`core_ops/`](./core_ops)      | Range checks, max/min, and basic ReLU formulations              |
-| [`matmul/`](./matmul)          | Matrix multiplication (standard and quantized)                  |
+| [`matmul/`](./matmul)          | Hadamard product, matrix addition, and matrix multiplication (standard and quantized)                  |
 | [`pooling/`](./pooling)        | Max and min pooling circuits (⏳ coming soon)             |
 | [`conv_layers/`](./conv_layers)| Convolutional layer blueprints (⏳ coming soon)            |
 | [`activation/`](./activation)  | Activation functions like ReLU, LeakyReLU, etc. (only ReLU at this stage; others may follow in future work) |
@@ -35,7 +38,7 @@ Each subdirectory focuses on a specific class of operations:
 Each section contains:
 - 📄 **PDF blueprints** describing the circuit logic, constraints, and mathematical justification
 - 📓 *(Planned)* Jupyter notebooks for live examples and testing
-- 📘 A local [`README.md`](./core_ops/README.md) with context and links
+- 📘 A local `README.md` with context and links
 
 ---
 
