@@ -7,7 +7,7 @@
 
 **zkml-blueprints** is a collection of mathematical formulations and circuit designs supporting zero-knowledge (ZK) proofs for machine learning (ML) applications, focusing on efficiently implementing provable computations in ZK circuits. This repository provides formal descriptions, constraints, and structured blueprints for designing circuits that preserve privacy while ensuring verifiable correctness.
 
-If you're new here, a good starting point is the [matrix addition, Hadamard product, and matrix multiplication blueprint](./matmul/matrix_addition_hadamard_product_matrix_multiplication.pdf). It introduces the core ideas and verification paradigm used throughout the project, grounded in addition and multiplication over finite fields, before moving on to more technical constructions.
+If you're new here, [notes on constraint system design](./constraint_system_design) is a good starting point. In fact the represent the beginning of an extensive revision of this repo. In the meantime, other docs may still be useful.
 
 ## Features
 - 📖 **Mathematical Formulations** – Rigorous explanations of key principles underlying ZK circuit design.
